@@ -22,6 +22,6 @@ module.exports = (req, res, next) => {
           .json({ message: "ran into an error, please try later" });
       });
   } else {
-    res.status(400).json({ message: "please provide credentials" });
+    res.status(400).json({ message: "You shall not pass!" });
   }
 };
